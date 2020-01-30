@@ -2,14 +2,20 @@
   "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
   "contentVersion": "1.0.0.0",
   "parameters": {
+    "newStorageAccountHame": {
+      "value": "MyDeployStorageACC"
+    },
     "adminUsername": {
       "value": "GEN-UNIQUE"
     },
     "adminPassword": {
-      "value": "GEN-PASSWORD"
+      "value": "Password1234"
     },
     "dnsLabelPrefix": {
-      "value": "GEN-UNIQUE"
-    }
+      "value": "chmydepAnTu31"
+    },
+    "location": {
+      "value": "West Europe"
+    }  
   }
 }
