@@ -16,7 +16,7 @@ New-AzResourceGroup -Name $rgName -Location $LocName
 
 $parameterFilePath = “C:\Users\turnea\OneDrive - Agilisys Ltd\GitHub\ARM-Templates\101-vm-simple-windows\azuredeploy.parameters.json"
  
-New-AzureRmResourceGroupDeployment `
+New-AzResourceGroupDeployment `
     -Name $deploymentName `
     -ResourceGroupName $rgName `
     -TemplateFile $templatePath `
